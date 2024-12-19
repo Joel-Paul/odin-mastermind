@@ -19,4 +19,4 @@ if choice == '2'
   codemaster, codebreaker = codebreaker, codemaster
 end
 
-Mastermind.play(codemaster, codebreaker, ROUNDS, MAX_DIGIT, MAX_LENGTH)
+Mastermind::play(codemaster, codebreaker, ROUNDS, MAX_DIGIT, MAX_LENGTH)

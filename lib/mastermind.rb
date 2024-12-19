@@ -27,8 +27,6 @@ class Mastermind
     end
   end
 
-  private
-
   def self.provide_feedback(guess, answer)
     # Map to keep track of which digits have been guessed, otherwise partial guesses can double up
     digits_map = answer.split('').reduce(Hash.new(0)) do |digits_map, digit|
